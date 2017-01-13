@@ -87,9 +87,9 @@ hr.dashed {
 	color: #FFFFFF;
 }
 
-.bg1	{ background-color: #091929; }
-.bg2	{ background-color: #091929; }
-.bg3	{ background-color: #091929; }
+.bg1	{ background-color: #0D1B28; }
+.bg2	{ background-color: #0C1926; }
+.bg3	{ background-color: #0D1B28; }
 
 .ucprowbg {
 	background-color: #091929;
@@ -287,7 +287,8 @@ a.topictitle {
 /* a.topictitle:visited { color: #368AD2; } */
 
 a.topictitle:hover {
-	color: #148ccc;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 a.topictitle:active {
@@ -378,9 +379,9 @@ ul.topiclist li {
 	color: #CCCCCC;
 }
 
-/* ul.topiclist dd {
-	border-left-color: #31393f;
-} */
+ul.topiclist dd {
+	border-left: 0px solid #000000;
+} 
 
 .rtl ul.topiclist dd {
 	border-right-color: #31393f;
@@ -395,8 +396,8 @@ ul.topiclist li.row dt a.subforum.unread {
 }
 
 li.row {
-	border-top-color: #1f2d37;
-/*	border-bottom-color: #0a1a2a; */
+	border-top: 1px solid #142431;
+	border-bottom: 0px solid #142431;
 }
 
 li.row strong {
@@ -404,7 +405,8 @@ li.row strong {
 }
 
 li.row:hover {
-	background-color: #091929;
+	background-color: #162534;
+	background-color: rgba(255,255,255,0.05);
 }
 
 li.row:hover dd {
@@ -506,12 +508,19 @@ dl.codebox code {
 	color: #CCCCCC;
 }
 
-.syntaxbg		{ color: #FFFFFF; }
+/*.syntaxbg		{ color: #FFFFFF; }
 .syntaxcomment	{ color: #FF8000; }
 .syntaxdefault	{ color: #0000BB; }
 .syntaxhtml		{ color: #000003; }
 .syntaxkeyword	{ color: #006413; }
-.syntaxstring	{ color: #DD0000; }
+.syntaxstring	{ color: #DD0000; }*/
+
+.syntaxbg		{ color: #000000; }
+.syntaxcomment	{ color: #808024; }
+.syntaxdefault	{ color: #4D97C4; }
+.syntaxhtml		{ color: #999999; }
+.syntaxkeyword	{ color: #A36D7C; }
+.syntaxstring	{ color: #3C993C; }
 
 /* Attachments
 ----------------------------------------*/
